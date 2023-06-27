@@ -1,0 +1,15 @@
+Variable
+    a est un entier 
+    b est un entier 
+    c est un entier
+Debut du programme
+    Ecrire "Saisir le nombre a"
+    Lire <-- a
+    Ecrire "Saisir le nombre b
+    Lire <-- b
+    Ecrire "le nombre a",a, "nombre b",b
+    c <-- b
+    b <-- a
+    a <-- c
+    Ecrire "Nombre a",a,a" nombre b, b,b"
+ fin du programme
