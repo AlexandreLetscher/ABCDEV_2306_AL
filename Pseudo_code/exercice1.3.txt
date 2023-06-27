@@ -1,0 +1,14 @@
+Variables
+    Rayon est reel
+    Angle est un reel
+    Aire est un reel
+Constantes
+    Pi est un reel 
+Debut du programme
+    Ecrire "Saisir le rayon"
+    Lire <-- Rayon
+    Ecrire "saisir l'angle"
+    Lire <-- Angle
+    Aire <-- (Pi*rayon^2*Angle)/360
+    Ecrire "l'aire du secteur circulaire est ",Aire
+Fin du programme
