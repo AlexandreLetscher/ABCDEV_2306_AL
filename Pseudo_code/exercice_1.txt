@@ -1,0 +1,13 @@
+variables 
+nombre1 est un entier
+nombre2 est un entier
+resultat est un nombre réel 
+
+début du programme
+Ecrire "saire le premier nombre"
+lire <-- nombre1
+Ecrie "saisir le deuxieme nombre"
+lire <-- nombre 2
+Resultat <-- nombre 1 + nombre 2 /2
+Ecrire " la moyenne du nombre1 et nombre2 est", resultat
+fin du programme
