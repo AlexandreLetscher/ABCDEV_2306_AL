@@ -4,7 +4,7 @@ nombre2 est un entier
 resultat est un nombre réel 
 
 début du programme
-Ecrire "saire le premier nombre"
+Ecrire "saisir le premier nombre"
 lire <-- nombre1
 Ecrie "saisir le deuxieme nombre"
 lire <-- nombre 2
