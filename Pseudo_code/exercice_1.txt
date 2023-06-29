@@ -6,7 +6,7 @@ resultat est un nombre réel
 début du programme
 Ecrire "saisir le premier nombre"
 lire <-- nombre1
-Ecrie "saisir le deuxieme nombre"
+Ecrie "saisir le deuxieme nombre"/*
 lire <-- nombre 2
 Resultat <-- nombre 1 + nombre 2 /2
 Ecrire " la moyenne du nombre1 et nombre2 est", resultat

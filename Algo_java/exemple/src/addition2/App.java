@@ -32,13 +32,13 @@ fin du programme
 		
 		System.out.println("premier nombre"); // Ce qui va apparaitre dans la commande
 		nombre1 = sc.nextDouble(); // Nombre que je vais taper
-		System.out.println("deuxieme nombre");
+		System.out.println("deuxieme nombre");// ce qui va apparaitre dans la commande
 		nombre2 = sc.nextDouble(); // nombre que je vais taper
 		resultat = (nombre1 + nombre2)/2;
 		
 		System.out.println("la moyenne de " + nombre1 + " et " + nombre2 + " vaut " + resultat);
 		
-		sc.close();
+		sc.close();// fermeture du scanner
 		
 		
 		
