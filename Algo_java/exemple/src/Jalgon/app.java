@@ -29,7 +29,7 @@ public class app {
 	mail1 = prenom + "." +nom + dept + "@arfp.asso.fr";
 	mail2 = nom + ".²" + dept + prenom + "@arfp.asso.fr";
 	
-	System.out.println("mail1 : " + mail1 + "et mail2 : " + mail2);
+	System.out.println("Mail1 : " + mail1 + "et Mail2 : " + mail2);
 	
 	
 	sc.close();
