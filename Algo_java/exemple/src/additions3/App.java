@@ -34,7 +34,7 @@ Scanner sc = new Scanner (System.in);
 
 
 	System.out.println("Saisir le rayon");
-	rayon = sc.next();
+	rayon = sc.nextDouble();
 
 	// calcul de l'aire
 	aire = 4*pi*Math.pow(rayon,2);

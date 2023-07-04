@@ -31,11 +31,9 @@ Fin du programme
 */
 // Variables 
 		
-		double somme;
-		double interet;
+		double somme, interet, isimpl, icomp;
 		int annees;
-		double isimpl;
-		double icomp;
+		
 		
 		Scanner sc = new Scanner (System.in);
 		
