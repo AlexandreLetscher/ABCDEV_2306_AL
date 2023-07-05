@@ -1,19 +1,20 @@
 VARIABLES
 
-annees est un entier 
+age est un entier 
 
 Debut du programme 
     "ecrire votre age"
     Lire <-- age 
 Debut Si 
     Si
+
    a <1
 
 Alors
     Ecrire " vous etes pas encore nee"
 Sinon si 
     a<18
-Alors
+
     ecrire "vous etes mineur"
 
 Sinon 
