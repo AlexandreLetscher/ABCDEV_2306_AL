@@ -1,0 +1,22 @@
+Variables 
+    a est un entier 
+    b est un entier 
+    
+Debut du programme
+    Ecrire " Saisir le nombre a"
+    Lire <-- a
+    Ecrire " Saisir le nombre b"
+    Lire <-- b
+
+Debut Si
+    Si 
+        a==b
+        Ecrire "a=b"
+    Sinon si 
+        a<b
+        Ecrire a "<" b
+    Sinon 
+        a>b
+        Ecrire b "<" a
+
+ Fin du programme

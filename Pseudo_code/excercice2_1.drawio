@@ -1,0 +1,69 @@
+<mxfile host="Electron" modified="2023-07-04T12:24:32.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="h2rbQVOpWNq_Vg4a3dVn" version="21.5.0" type="device">
+  <diagram name="Page-1" id="NrPVtP-C81cCThohkTHL">
+    <mxGraphModel dx="1178" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a30qXieveIV7rrb0y4hr-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="a30qXieveIV7rrb0y4hr-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a30qXieveIV7rrb0y4hr-3" target="a30qXieveIV7rrb0y4hr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-3" value="Saisir année" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-7" value="oui" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a30qXieveIV7rrb0y4hr-4" target="a30qXieveIV7rrb0y4hr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-9" value="non" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a30qXieveIV7rrb0y4hr-4" target="a30qXieveIV7rrb0y4hr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-4" value="année&amp;gt;=18" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="265" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a30qXieveIV7rrb0y4hr-6" target="a30qXieveIV7rrb0y4hr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-6" value="écrire &quot;vous etes majeurs&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a30qXieveIV7rrb0y4hr-8" target="a30qXieveIV7rrb0y4hr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a30qXieveIV7rrb0y4hr-8" target="a30qXieveIV7rrb0y4hr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-8" value="année&amp;lt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="265" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a30qXieveIV7rrb0y4hr-10" target="a30qXieveIV7rrb0y4hr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-10" value="Ecrire &quot;vous n&#39;etes pas né&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a30qXieveIV7rrb0y4hr-12" target="a30qXieveIV7rrb0y4hr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-12" value="ecrire &quot; vous etes mineur&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="555" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="555" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a30qXieveIV7rrb0y4hr-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="555" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

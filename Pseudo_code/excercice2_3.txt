@@ -1,0 +1,41 @@
+a est un reel
+b est un reel
+c est un reel
+
+Debut du programme
+
+    Ecrire "Saisir le nombre a"
+    Lire <-- a
+     Ecrire " Saisir le nombre b"
+    Lire <-- b
+      Ecrire " Saisir le nombre c"
+
+    Debut Si
+
+        Si 
+            a<b et b<c
+            Ecrire a"<"b"<"c 
+       
+        Sinon si
+            a<c et c<b
+            Ecrire a"<"c"b
+
+        Sinon si
+            b<a et a<c
+            b"<"a"<"c
+
+        sinon si 
+            b<c et c<a
+            b"<"c"<"a
+
+        sinon si 
+            c<a et a<b
+            c"<"a"<"b
+
+        sinon 
+            c<b et b<a
+            c"<"b"<"a
+
+Fin du programme
+
+
