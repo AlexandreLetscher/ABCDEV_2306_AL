@@ -12,14 +12,14 @@ public class App {
 	boolean etude;
 	String jour;
 	boolean queljour;
-	int reduction;
+	
 	
 	Scanner sc = new Scanner(System.in);
 	
 	System.out.println(" Etes vous etudiant \nOui= O  \tNon=N  ");
-	etudiant = sc.nextLine();
+	etudiant = sc.next();
 	
-	if(etude.equals("O")   
+	if(etudiant.equals("O")||etudiant.equals ("o"))
 	{
 		etude = true;
 	}
@@ -28,24 +28,31 @@ public class App {
 		etude = false;
 	}
 	
-	System.out.println(" Quel jour est il \njeudi = J \tmercredi= M ");
-	jour = sc.nextLine();
+	System.out.println(" Quel jour est il \njeudi = Jeudi \tmercredi= Mercredi ");
+	jour = sc.next();
 	
-	if(queljour.equals(" J ")  &&  queljour.equals("M") )
+	if(jour.equals("jeudi")  || jour.equals("mercredi") )
 	{
 		queljour = true;
 	}
+	
 	else
 	{
 		queljour = false;
 	}
 	
-	if etude == true && queljour == true 
-			System.out.println(" vous avez le droit a une reduction jeudi de 20% et de 50% le mercredi")
+	if (etude && queljour == true) 
+	{
+			System.out.println(" vous avez le droit a une reduction le jeudi de 20% et de 50% le mercredi");
+	}
+	
+	else
+		System.out.println(" Vous n'avez le droit a aucun reduction ");
 	
 	
 	
 	
+	 sc.close();
 	 
 	
 

@@ -38,7 +38,7 @@ Fin du programme
 	// Calcul
 		// Debut Si
 		
-	if (((a % 4 == 0) && ( a % 100 != 0)) || ( a % 400 == 0)) 
+	if (((a / 4 == 0) && ( a / 100 != 0)) || ( a / 400 == 0)) 
 	{
 		System.out.println( "est une a anne bissextille ");
 	}
