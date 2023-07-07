@@ -3,11 +3,9 @@ package exemple_boolean;
 import java.util.Scanner;
 
 public class App {
-
-	public static void main(String[] args) {
-		
+	
 	/*
-	 * "J'irais me promener s'il fait plus de 25°C et qu'il ne pleut pas, ou si ma copine le veut"
+	 "J'irais me promener s'il fait plus de 25°C et qu'il ne pleut pas, ou si ma copine le veut"
 	 
 	 Variables
 	 	temperature est un entier
@@ -39,52 +37,56 @@ public class App {
 	 Fin Si
 	 Fin du programme
 	 */
+
+	
+
+	public static void main(String[] args) {
 		
-		// Declaration Variables
+			// declaration des variables
 		
-		int temperature;
-		String pleutIl;
-		boolean ilPleut;
-		String copineVeutElle;
-		boolean elleVeut;
-		
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Quelle temperature");
-		temperature = sc.nextInt();
-		System.out.println("est qu'il pleut ? \nOui= O ou o \tNon=N ou n ");
-		pleutIl = sc.next();
-		if(pleutIl.equals("O")  || pleutIl.equals("o") )
-		{
-			ilPleut = true;
-		}
-		else
-		{
-			ilPleut = false;
-		}
-		
-		System.out.println("est ce que ma copine veut sortir ? \nOui= O ou o \tNon=N ou n");
-		copineVeutElle = sc.next();
-		
-		if(copineVeutElle.equals("O") || copineVeutElle.equals("o"))
-		{
-			elleVeut = true;
-		}
-		else
-		{
-			elleVeut = false;
-		}
-		
-		if(temperature > 25 && ilPleut == false || elleVeut == true)
-		{
-			System.out.println("J'irais me promener");
-		}
-		else
-		{
-			System.out.println("Je reste à la maison");
-		}
-		
-		sc.close();
+				int temperature;
+				String pleutIl;
+				boolean ilPleut;
+				String copineVeutElle;
+				boolean elleVeut;
+				
+				Scanner sc = new Scanner(System.in);
+				
+				System.out.println("Quelle temperature");
+				temperature = sc.nextInt();
+				System.out.println("est qu'il pleut ? \nOui= O ou o \tNon=N ou n ");
+				pleutIl = sc.next();
+				if(pleutIl.equals("O")  || pleutIl.equals("o") )
+				{
+					ilPleut = true;
+				}
+				else
+				{
+					ilPleut = false;
+				}
+				
+				System.out.println("est ce que ma copine veut sortir ? \nOui= O ou o \tNon=N ou n");
+				copineVeutElle = sc.next();
+				
+				if(copineVeutElle.equals("O") || copineVeutElle.equals("o"))
+				{
+					elleVeut = true;
+				}
+				else
+				{
+					elleVeut = false;
+				}
+				
+				if(temperature > 25 && ilPleut == false || elleVeut == true)
+				{
+					System.out.println(" J'irais me promener ");
+				}
+				else
+				{
+					System.out.println(" Je reste a la maison ");
+				}
+				
+				sc.close();
 
 
 	}

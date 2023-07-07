@@ -27,15 +27,15 @@ Fin du programme
 public class app {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		int a, b, c;
 		
 		Scanner sc = new Scanner (System.in); // ouverture du scanner
 
 		System.out.println(" Entrez la valeur de \"a\" :");
-		a = sc.nextInt();
-		System.out.println("")
+		sc.nextInt();
+		System.out.println("");
+		
 		
 		
 		

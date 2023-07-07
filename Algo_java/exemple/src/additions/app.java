@@ -40,7 +40,7 @@ public class app {
 		nombre1 = sc.nextInt();
 		System.out.println("Saisir le 2eme nombre");
 		nombre2 = sc.nextInt();
-		resultat = nombre1 + nombre2;
+		resultat = (nombre1 + nombre2);
 		
 		System.out.println("Le resultat de l'addition de "+ nombre1 +" et "+ nombre2 + " est " + resultat);
 		

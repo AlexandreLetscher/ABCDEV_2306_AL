@@ -35,6 +35,7 @@ fin du programme
 		System.out.println("deuxieme nombre");// ce qui va apparaitre dans la commande
 		nombre2 = sc.nextDouble(); // nombre que je vais taper
 		resultat = (nombre1 + nombre2)/2;
+		resultat = Math.round(nombre1 + nombre2*100.0) /100.0;
 		
 		System.out.println("la moyenne de " + nombre1 + " et " + nombre2 + " vaut " + resultat);
 		

@@ -11,7 +11,7 @@ Debut du programme
 Debut Si
     Si 
         a==b
-        Ecrire "a=b"
+        Ecrire a"="b
     Sinon si 
         a<b
         Ecrire a "<" b

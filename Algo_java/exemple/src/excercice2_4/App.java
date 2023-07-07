@@ -6,7 +6,25 @@ public class App {
 
 	public static void main(String[] args) {
 		 /*
-		  * 
+		  * Variables 
+
+    annee est un entier 
+
+ 
+
+Debut du programme
+    Ecrire " Saisir l'annee 
+    Lire <-- annee 
+
+    Debut du si 
+        si 
+            annee / 4 et non par 100 ou / 400
+            Ecrire "est une annee bissextille"
+
+    Sinon 
+            Ecrire " n'est pas une annee bissextille"
+
+Fin du programme
 		  */
 //Variable 
 		int a;
@@ -18,15 +36,18 @@ public class App {
 		
 	
 	// Calcul
+		// Debut Si
 		
-	if ((a % 4 == 0 && a != 100) || a % 400 == 0) {
+	if (((a % 4 == 0) && ( a % 100 != 0)) || ( a % 400 == 0)) 
+	{
 		System.out.println( "est une a anne bissextille ");
 	}
-	else {
+	else 
+	{
 		System.out.println(" n'et pas pas une annee bissextille ");
 	}
 		
-		sc.close();
+		sc.close(); // fermeture du scanner 
 
 	}
 

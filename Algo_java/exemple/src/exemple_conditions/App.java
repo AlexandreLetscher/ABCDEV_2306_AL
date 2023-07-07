@@ -3,46 +3,34 @@ package exemple_conditions;
 import java.util.Scanner;
 
 /*
- * VARIABLES
- * 
- * 		nombre1 est un entier
- * 
- * Debut du pregramme
- * 
- * 		Ecrire "Saisir un nombre entier"
- * 		Lire <-- nombre1
- * 
- * Debut Si
- * 
- * 		Si
- * 			nombre1 est egal a 20
- * 
- * 		Alors 
- * 			Ecrire "le nombre est egal a 20
- * 
- * 		Sinon si 
- * 			nombre est egal a 15
- * 
- * 		Alors
- * 			Ecrire "Le nombre est egal à 15"
- * 
- * 		Sinon 
- * 			Ecrire "Le nombre n'est pas egale a 20 et n'est pas egal a 15"
- * 
- * 		Fin Si 
- * 
- * 		Fin du programme
- * 
- */
+VARIABLES
+	nombre1 est un entier
+Debut du programme
+	Ecrire "Saisir un nombre entier"
+	Lire <-- nombre1
+Debut Si
+	Si 
+		nombre1 est egale à 20
+	Alors
+		Ecrire "Le nombre est egale à 20"
+	Sinon Si
+		nombre est egale à 15
+	Alors
+		Ecrire "Le nombre est egale à 15"
+	Sinon
+		Ecrire "le nombre n'est pas egale à 20 et n'est pas égale à 15"
+Fin Si
+Fin du programme
+*/
+
 
 
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		int nombre1;
-
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -51,19 +39,21 @@ public class App {
 		
 		if(nombre1 == 20)
 		{
-			System.out.println("Le nombre saisi est egale a 20");
+			System.out.println("Le nombre saisi est egale à 20");
 		}
 		else if(nombre1 == 15)
 		{
-			System.out.println("Le nombre saisi est egale a 15");
+			System.out.println("Le nombre saisi est egale à 15");
 		}
 		else
 		{
-			System.out.println("Le nombre saisi est ni egale a 20 et ni egale à 15");
+			System.out.println("Le nombre saisi est ni egale à 20 et ni égale à 15");
 		}
 		
 		sc.close();
+
 		
+
 	}
-	
+
 }

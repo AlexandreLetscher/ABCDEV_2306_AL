@@ -46,9 +46,11 @@ Fin du programme
 		
 		// Calcul interet 
 		
-		isimpl = somme*(1+annees*interet/100);
+		isimpl = somme*(1+annees*interet/100); 
+		isimpl = Math.round(isimpl*100)/100;
+		
 		icomp = somme*Math.pow(1+(interet/100),annees);
-		icomp = Math.round(icomp*100.0) /100.0;
+		icomp = Math.round(icomp*100.0)/100.0;
 		
 		System.out.println("L'interet simple vaut " + isimpl + " L'interet compose vaut " + icomp);
 		
