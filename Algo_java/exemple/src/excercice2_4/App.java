@@ -10,19 +10,20 @@ public class App {
 
     annee est un entier 
 
- 
+ Variables 
+	annee est un entier
 
 Debut du programme
-    Ecrire " Saisir l'annee 
-    Lire <-- annee 
+    	Ecrire " Saisir l'annee 
+    	Lire <-- annee 
 
-    Debut du si 
-        si 
-            annee / 4 et non par 100 ou / 400
-            Ecrire "est une annee bissextille"
+    	Debut du si 
+        	si 
+            	annee / 4 et non par 100 ou / 400
+            	Ecrire "est une annee bissextille"
 
-    Sinon 
-            Ecrire " n'est pas une annee bissextille"
+   	 Sinon 
+           	 Ecrire " n'est pas une annee bissextille"
 
 Fin du programme
 		  */

@@ -42,7 +42,7 @@ Debut Si
 		 System.out.println("Saisir le nombre a");
 		 a = sc.nextInt();
 		 System.out.println("Saisir le nombre b");
-		b =  sc.nextInt();
+		 b =  sc.nextInt();
 		 
 		 // calcul 
 		 
@@ -53,7 +53,7 @@ Debut Si
 			 System.out.println(a + "<" + b);
 		 }
 		 else {
-			 System.out.println(b + "<"+ a ); 
+			 System.out.println(b + "<" + a ); 
 		 }
 		  
 		 sc.close();

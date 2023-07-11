@@ -12,11 +12,12 @@ public class App {
 	boolean etude;
 	String jour;
 	boolean queljour;
+
 	
 	
 	Scanner sc = new Scanner(System.in);
 	
-	System.out.println(" Etes vous etudiant \nOui= O  \tNon=N  ");
+	System.out.println(" Etes vous etudiant \nOui=O  \tNon=N  ");
 	etudiant = sc.next();
 	
 	if(etudiant.equals("O")||etudiant.equals ("o"))
@@ -28,14 +29,13 @@ public class App {
 		etude = false;
 	}
 	
-	System.out.println(" Quel jour est il \njeudi = Jeudi \tmercredi= Mercredi ");
+	System.out.println(" Quel jour est il \njeudi =jeudi \tmercredi= mercredi ");
 	jour = sc.next();
 	
 	if(jour.equals("jeudi")  || jour.equals("mercredi") )
 	{
 		queljour = true;
 	}
-	
 	else
 	{
 		queljour = false;

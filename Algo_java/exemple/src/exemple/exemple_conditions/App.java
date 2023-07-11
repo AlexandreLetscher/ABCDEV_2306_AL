@@ -1,4 +1,4 @@
-package exemple_conditions;
+package exemple.exemple_conditions;
 
 import java.util.Scanner;
 
@@ -39,7 +39,7 @@ import java.util.Scanner;
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		int nombre1;
 

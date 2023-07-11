@@ -1,4 +1,4 @@
-package exemple_boolean;
+package exemple.exemple_boolean;
 
 import java.util.Scanner;
 
