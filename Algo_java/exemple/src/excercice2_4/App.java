@@ -6,49 +6,49 @@ public class App {
 
 	public static void main(String[] args) {
 		 /*
-		  * Variables 
+		  *  
+    
+ 			Variables 
+				annee est un entier
 
-    annee est un entier 
+			Debut du programme
+    			Ecrire " Saisir l'annee 
+    			Lire <-- a 
 
- Variables 
-	annee est un entier
+    		Debut du si 
+        		si 
+            		a / 4 et non par 100 ou / 400
+            		Ecrire "est une annee bissextille"
 
-Debut du programme
-    	Ecrire " Saisir l'annee 
-    	Lire <-- annee 
-
-    	Debut du si 
-        	si 
-            	annee / 4 et non par 100 ou / 400
-            	Ecrire "est une annee bissextille"
-
-   	 Sinon 
-           	 Ecrire " n'est pas une annee bissextille"
+   	 			Sinon 
+           	 		Ecrire " n'est pas une annee bissextille"
 
 Fin du programme
 		  */
-//Variable 
-		int a;
 		
-		Scanner sc = new Scanner(System.in); // ouverture du scanner
 		
-		System.out.println(" Saisir l'annee : ");
-		a = sc.nextInt();
+		//Variable 
+			int a;
+		
+			Scanner sc = new Scanner(System.in); // ouverture du scanner
+		
+			System.out.println(" Saisir l'annee : ");
+			a = sc.nextInt();
 		
 	
-	// Calcul
+		// Calcul
 		// Debut Si
 		
-	if (((a / 4 == 0) && ( a / 100 != 0)) || ( a / 400 == 0)) 
-	{
-		System.out.println( "est une a anne bissextille ");
-	}
-	else 
-	{
-		System.out.println(" n'et pas pas une annee bissextille ");
-	}
+			if ((( a% 4 == 0) && ( a%100 != 0)) || ( a%400 == 0)) 
+			{
+				System.out.println( "est une a anne bissextille ");
+			}
+			else 
+			{
+				System.out.println(" n'et pas pas une annee bissextille ");
+			}
 		
-		sc.close(); // fermeture du scanner 
+			sc.close(); // fermeture du scanner 
 
 	}
 

@@ -41,18 +41,20 @@ public class App {
 		
 		// Debut du si 
 		
-			if (n > 0)
+			if (n > 1)
 			{
-				System.out.println( n + " est positif ");
+				System.out.println( n + " ce nombre  est positif ");
 			}
-			else if (n<0)
+			else if (n==0)
 			{
-				System.out.println( n + " est negatif");
+				System.out.println( n + " ce nombre est egal a 0 ");
 			}
 			else
 			{
-				System.out.println(" ce nombre est egal a 0 ");
+				System.out.println( n + " ce nombre est negatif ");
 			}
+				
+			
 			
 			sc.close();
 			

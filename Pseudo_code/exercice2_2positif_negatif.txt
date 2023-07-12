@@ -1,0 +1,20 @@
+    Variables 
+        n est un reel
+    
+    Debut du programme 
+
+
+        Ecrire " Saisir le nombre"
+        Ecrire <-- n
+
+            Debut du si 
+                si n>0
+                ecrire " ce nombre est positif 
+                sinon ecrire "ce nombre est negatif"
+
+                si n=0
+                ecrire "ce nombre est positif"
+
+            fin du si 
+    
+    fin du programe

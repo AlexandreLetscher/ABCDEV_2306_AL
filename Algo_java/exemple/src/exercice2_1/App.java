@@ -50,6 +50,10 @@ public class App {
 		{
 			System.out.println("Vous etes  mineur");
 		}
+		else if (age >99 )
+		{
+			System.out.println("Vous etes  mort ");
+		}
 		else
 		{
 			System.out.println("Vous etes majeur");

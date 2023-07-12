@@ -1,0 +1,23 @@
+Variables 
+
+    annee est un entier 
+
+ 
+
+Debut du programme
+    Ecrire " Saisir l'annee 
+    Lire <-- annee 
+
+    Debut du si 
+        si 
+            annee / 4 et par 100 ou / 400
+            Ecrire "est une annee bissextille"
+
+    Sinon 
+            Ecrire " n'est pas une annee bissextille"
+
+Fin du programme
+
+
+
+    

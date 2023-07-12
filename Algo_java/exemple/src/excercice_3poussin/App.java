@@ -35,7 +35,7 @@ public class App {
 		 */
 		
 		//Variables 
-			int n1;
+			int n1; //âge
 			
 			Scanner sc = new Scanner(System.in); // ouverture du scanner
 			
