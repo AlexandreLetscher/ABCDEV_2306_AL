@@ -27,7 +27,7 @@ public class App {
 		s = s + 1;
 		
 		// debut du si 
-		if (s==60)
+		if (s == 60)
 		{
 			s=0;
 			m=m+1;
@@ -37,7 +37,7 @@ public class App {
 			m=0;
 			h=h+1;
 		}
-		if (h==24)
+		if (h == 24)
 		{
 			h=0;
 		}
