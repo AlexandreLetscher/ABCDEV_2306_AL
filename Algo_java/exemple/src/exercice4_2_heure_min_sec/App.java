@@ -41,7 +41,7 @@ public class App {
 		{
 			h=0;
 		}
-		 System.out.println("Dans une seconde il sera " + h + " heures " + m + " minutes " + s + " secondes ");
+		 System.out.println("Dans une seconde il sera " + h + " heures " + m + " minutes et " + s + " secondes ");
 		 
 		 sc.close();
 			 

@@ -24,18 +24,18 @@ que l’habitant est imposable
 	 * 
 	 * debut du programme 
 	 * 
-	 * Entrer le sex (M/F)
-	 * lire <-- sex 
-	 * entrer age 
-	 * lire <-- age 
+	 * 		Entrer le sex (M/F)
+	 * 			lire <-- sex 
+	 * 		entrer age 
+	 * 			lire <-- age 
 	 * 
 	 * debut de si 
 	 * 	si
 	 * 		sex = M et age >20
-	 * 		ecrire " vous etes imposable" 
+	 * 			ecrire " vous etes imposable" 
 	 * 	sinon si 
 	 * 		sex = F et ( age >18 et age <35)
-	 * 		ecrire "vous etes   imposable"
+	 * 			ecrire "vous etes   imposable"
 	 * 	sinon 
 	 * 		ecrire "vous n'etes pas imposable"
 	 * 
@@ -47,36 +47,34 @@ que l’habitant est imposable
 
 	public static void main(String[] args) {
 		
+		// declaration des variables 
 		
 		String sex;
 		int age;
-		
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); // ouverture du scanner
 		
 		System.out.println(" Saisire le sex : f ou F = feminin et M ou m = masculin  ");
 		sex = sc.next();
 		System.out.println(" Saisir l'age :");
 		age = sc.nextInt();
 		
+		// Debut du programme
 		
 		if ((sex.equals("M") || sex.equals("m")) && age >20)
-		{
-			
+		{	
 				System.out.println(" Vous etes imposable");
-			
 		}
 		else if ((sex.equals("F")|| sex.equals("f")) &&  age >18  &&  age <35)
 		{
-			
 				System.out.println(" Vous etes imposable ");
-			
 		}
 		else 
 		{
 				System.out.println(" Vous n'etes pas imposable ");
 		}
 		
-		sc.close();
+		
+		sc.close(); // fermeture du scanner
 	}
 
 	

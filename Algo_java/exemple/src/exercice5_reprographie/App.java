@@ -59,7 +59,7 @@ affiche la facture correspondante.
 			prix = (10*0.1) + (20*0.9) + (n1-30)*0.08;
 		}
 		
-		System.out.println("Le prix totale est de  " + prix + " euros. " );
+		System.out.println("Le prix totale est de  " + prix + " euros.0 " );
 		sc.close();
 	}
 

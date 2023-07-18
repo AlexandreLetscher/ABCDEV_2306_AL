@@ -33,7 +33,7 @@ public class App {
 		{
 			h = 00;
 		}
-			System.out.println(" Dans une minute il sera " + h + " heure " + m + " minute ");
+			System.out.println(" Dans une minute il sera " + h + " heure et" + m + " minute ");
 		
 		
 			
