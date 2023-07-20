@@ -42,7 +42,7 @@ public class App {
 		System.out.println("Saisir l'age");
 		age = sc.nextInt();
 		
-		if(age <1)
+		if(age <0)
 		{
 			System.out.println("Vous n'etes pas encore nee");
 		}
@@ -50,7 +50,7 @@ public class App {
 		{
 			System.out.println("Vous etes  mineur");
 		}
-		else if (age >99 )
+		else if (age > 98 )
 		{
 			System.out.println("Vous etes  mort ");
 		}

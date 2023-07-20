@@ -1,18 +1,25 @@
-Variables 
+variables 
 h est un entier 
 m est un entier 
-Debut du programme
 
-Ecrire "Entrez les heures, puis les minutes : "
-Lire h, m
-m <-- m + 1
-Si m = 60 Alors
- ecrire m <-- 0
- ecrire h <-- h + 1
-FinSi
-Si h = 24 Alors
- ecrire h <-- 0
-FinSi
-Ecrire "Dans une minute il sera ", h, "heure(s) ", m, "minute(s)"
-Fin du programme
- 
+Debut du programme 
+
+ecrire "Saisir l'heure"
+<-- h
+ecrire "saisire les minutes 
+<-- m
+m <-- +1
+debut du si 
+
+si m == 60
+  debut du si
+  si h= 23
+  ecrire "il va etre 00h00"
+  sinon
+  ecrire "il va etre" +h+1 "heure" + " 0 minute"
+
+sinon 
+ecrire "il va etre"+ h+ "heure" + m + "minute"
+
+fin du programme 
+

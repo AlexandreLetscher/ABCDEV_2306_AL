@@ -48,7 +48,7 @@ Scanner sc = new Scanner (System.in);
 	
 	
 
-	volume = 4/3d*pi*Math.pow(rayon, 2);
+	volume = 4/3d*pi*Math.pow(rayon, 3);
 	volume = Math.round(aire*100.0) /100.0;
 	
 
