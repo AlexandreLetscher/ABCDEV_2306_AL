@@ -12,7 +12,7 @@ public class App {
 				annee est un entier
 
 			Debut du programme
-    			Ecrire " Saisir l'annee 
+    			Ecrire " Saisir l'annee "
     			Lire <-- a 
 
     		Debut du si 
@@ -41,11 +41,11 @@ Fin du programme
 		
 			if ((( a% 4 == 0) && ( a%100 != 0)) || ( a%400 == 0)) 
 			{
-				System.out.println( "est une a anne bissextille ");
+				System.out.println(a+ " est une a annee bissextille ");
 			}
 			else 
 			{
-				System.out.println(" n'et pas pas une annee bissextille ");
+				System.out.println(a+" n'et pas pas une annee bissextille ");
 			}
 		
 			sc.close(); // fermeture du scanner 

@@ -41,8 +41,15 @@ public class App {
 		{
 			h=0;
 		}
+		else if (h >= 25  || m >=61 || s >= 61)
+		{
+			System.out.println(h +" h "+ m +" m "+ s +" s"+ " n'est pas valide il faut saisir une nouvelle heure ");
+		}
+		else
+		{
 		 System.out.println("Dans une seconde il sera " + h + " heures " + m + " minutes et " + s + " secondes ");
-		 
+		}
+		
 		 sc.close();
 			 
 	}
