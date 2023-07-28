@@ -6,8 +6,12 @@ import java.util.Scanner;
 public class App {
 
 	public static void main(String[] args) {
-		int position=2,nb,nbprecedent=0,nbcourant=1,nbsuivant = 0;
+		
+		// declaration des variables
+		int position=2,nb; 
+		long nbprecedent=0,nbcourant=1,nbsuivant;
 	String resultat ="\t0\n\t1";
+	
 		
 		
 		Scanner sc = new Scanner(System.in);
@@ -31,7 +35,7 @@ public class App {
 			nb=2;
 		}
 		
-		System.out.print("les "+nb+" premiers nombre de la suite de Fibonacci sont : \n" + resultat + " \n " + nb +" nombres affiches");
+		System.out.print("les "+nb+" premiers nombre de la suite de Fibonacci sont : \n" + resultat + " \n "+"\t" + nb +" nombres affiches");
 		
 		
 			

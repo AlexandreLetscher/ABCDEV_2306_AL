@@ -1,8 +1,8 @@
 package Exercice_2;
 
-public class App {
+public abstract class App {
 
-	public static void main1(String[] args) {
+	public abstract void main1(String[] args);
 		public static void main(String[] args) {
 			char[] tab2 = new char[6];
 			
