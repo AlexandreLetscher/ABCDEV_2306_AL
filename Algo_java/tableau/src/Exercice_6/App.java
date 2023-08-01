@@ -6,24 +6,27 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		int tab1[] = {4,8,7,12};
-		int tab2[] = {3,6};
-		
-		int temp, signe = 0, resultat = 0;
+		int [] tab1 = {4,8,7,12};
+		int [] tab2 = {3,6};
+		int tempo, signal = 0, resultat =0 ;
 		int j;
 		
 		
-		for (int i=0; i < tab1.length; i++){
-		for ( j=0; j< tab2.length; j++);
-		String signeAffiche = (signe < (tab1.length * tab2.length)-1) ? " + " : " = ";  
-		signe++;
+		for (int i=0; i < tab2.length; i++){
+		for ( j=0; j< tab1.length; j++) {
+			System.out.print(tab2[i] + " * "+ tab1[j]);
+			String signeAffiche = (signal < (tab2.length * tab1.length)-1)? " + " : " = ";  
+		signal++;
 		System.out.print(signeAffiche);
-		temp = tab2[j]*tab1[i];
+		tempo = tab2[i]*tab1[j];
+		resultat += tempo;
 			
-			
-		
-			
+		}	
 		}
+		
+		
+		
+		System.out.println(resultat);
 	}
 }
 
