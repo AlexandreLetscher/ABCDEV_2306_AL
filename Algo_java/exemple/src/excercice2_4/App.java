@@ -32,7 +32,7 @@ Fin du programme
 		
 			Scanner sc = new Scanner(System.in); // ouverture du scanner
 		
-			System.out.println(" Saisir l'annee : ");
+			System.out.println(" Entree l'annee : ");
 			a = sc.nextInt();
 		
 	
@@ -41,11 +41,11 @@ Fin du programme
 		
 			if ((( a% 4 == 0) && ( a%100 != 0)) || ( a%400 == 0)) 
 			{
-				System.out.println(a+ " est une a annee bissextille ");
+				System.out.println("l'annee "+a+ " est unne annee bissextille ");
 			}
 			else 
 			{
-				System.out.println(a+" n'et pas pas une annee bissextille ");
+				System.out.println("l'annee "+a+" n'est pas pas une annee bissextille ");
 			}
 		
 			sc.close(); // fermeture du scanner 

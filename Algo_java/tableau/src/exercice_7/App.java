@@ -31,7 +31,10 @@ public class App {
 			System.out.print(tab2[i] + "  " );
 		}
 		
-		System.out.println(" le resultat est ");
+		
+		
+		
+		
 
 	sc.close();
 	}
