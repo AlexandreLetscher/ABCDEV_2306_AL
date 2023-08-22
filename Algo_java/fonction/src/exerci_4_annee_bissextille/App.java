@@ -27,15 +27,15 @@ public class App {
 		Scanner sc = new Scanner(System.in);
 		
 		int a;
-		System.out.println(" Saisir l'annee ");
+		System.out.println("         Saisir l'annee ");
 		a = sc.nextInt();
 		
 		if (annee(a)) {
-			System.out.println(" l'annee "+ a + " est bissextille");
+			System.out.println("          L'annee "+ a + " est bissextille");
 			
 		}
 		else {
-			System.out.println(" l'annee "+a+" n'est pas bissextille");
+			System.out.println("             L'annee "+a+" n'est pas bissextille");
 		}
 		
 		sc.close();

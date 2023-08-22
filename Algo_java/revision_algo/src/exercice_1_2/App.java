@@ -17,11 +17,11 @@ public class App {
 		 			debut du programme 
 		 		 
 		 		 ecrire "saisir le rayon "
-		 		 lire <-- rayon 
+		 		 	lire <-- rayon 
 		 		 
 		 		 calcul 
-		 		aire = 4*pi*rayon^2
-		 		volume = 4/3*pi*rayon^3
+		 			aire = 4*pi*rayon^2
+		 			volume = 4/3*pi*rayon^3
 		 		 
 		 		 ercire "le resultat de l'aire est ", aire 
 		 		 
@@ -54,7 +54,7 @@ public class App {
 	volume = 4/3d*pi*Math.pow(rayon,3);
 	 volume = Math.round(volume*100.0)/100.0;
 	 
-	 System.out.println("  l'aire est de : " + aire + " et le volume est de " + volume);
+	 System.out.println("l'aire est de : " + aire + " et le volume est de : " + volume);
 	 
 	 
 	 sc.close();

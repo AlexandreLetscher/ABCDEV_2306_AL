@@ -35,7 +35,7 @@ public class App {
 		perimetre = (a+b+c);
 		double aire;
 		aire =Math.pow(((perimetre/2-a)*(perimetre/2-b)*(perimetre/2-c)),1/2);
-		System.out.println("le perimtre est : " +perimetre+ " l'aire du triangle " + aire);
+		System.out.println("le perimtre est : " +perimetre+ " l'aire du triangle est : " + aire);
 	}
 	
 
@@ -45,11 +45,11 @@ public class App {
 			
 			Scanner sc = new Scanner(System.in);
 			
-			System.out.println(" Saisir le coté a");
+			System.out.println(" Saisir le cote a");
 			a = sc.nextDouble();
-			System.out.println(" Saisir le coté b ");
+			System.out.println(" Saisir le cote b ");
 			b = sc.nextDouble();
-			System.out.println(" Saisir le coté c");
+			System.out.println(" Saisir le cote c");
 			c = sc.nextDouble();
 			
 			

@@ -19,7 +19,7 @@ public class App {
 		int[] tab = new int [n];
 		for (i=0;i<n;i++)
 		{
-			System.out.println(" entrer un nombre ");
+			System.out.println("saisir le nombre " +(i+1));
 			tab[i]=sc.nextInt();
 		}
 		

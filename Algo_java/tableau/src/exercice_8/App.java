@@ -6,7 +6,7 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		int n=-1,i,nmax = 0  ,position =0;
+		int n=-1,i =1,nmax = 0  ,position =0;
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println(" entrer une valeur : ");
@@ -15,12 +15,12 @@ public class App {
 		
 		int [] tab1 = new int [n];
 		
-		for (i=0; i<n; i++)
+		for (i=1; i<n; i++)
 		{
-			System.out.println(" entrer un nombre : ");
+			System.out.println(" entrer un nombre : " + i);
 			tab1[i] = sc.nextInt();
 			
-			for (i=0;i<n-1;i++)
+			for (i=1;i<n-1;i++)
 			{
 			if (nmax < tab1[i]);
 			}

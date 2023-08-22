@@ -17,14 +17,14 @@ public class App {
 		Scanner sc = new Scanner(System.in);
 		
 		
-		System.out.println(" ENtrer un nombre de valeur ");
+		System.out.println(" Entrer un nombre de valeur ");
 		n = sc.nextInt();
 		
 		
 		int tab[] = new int [n];
 		for(i=0; i<n; i++)
 		{
-			System.out.println(" ENtrer un nombre" + i+1 + " :");
+			System.out.println(" Entrer un nombre " + (i+1) + " :");
 			tab[i]=sc.nextInt();
 			if (tab[i]>=0)
 			{
@@ -36,7 +36,7 @@ public class App {
 			}
 		}
 		
-		System.out.println(" nombre de valeurs positives :" + positif);
+		System.out.println(" nombre de valeurs positives : " + positif);
 		System.out.println(" nombre de valeur negatives : " + negatif);
 			
 		sc.close();

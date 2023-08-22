@@ -7,9 +7,10 @@ public class App {
 		int tab1[] = new int[7];
 		int i;
 		
+		
 		for(i = 0;i < tab1.length;i++)
 		{
-			tab1[i] = 2; 
+			tab1[i] = 0; 
 		}
 	}
 

@@ -32,7 +32,7 @@ Fin du programme
 		
 			Scanner sc = new Scanner(System.in); // ouverture du scanner
 		
-			System.out.println(" Entree l'annee : ");
+			System.out.println(" Entree une annee : ");
 			a = sc.nextInt();
 		
 	
