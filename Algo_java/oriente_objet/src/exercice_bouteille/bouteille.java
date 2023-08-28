@@ -118,6 +118,13 @@ public class bouteille {
 						if(this.contenanceEnL+quantite <=1.5)
 							return true;
 						{
+						else 
+							return false
+						}
+						{
+						else 
+							return false
+						}
 			}
 		}
 		
