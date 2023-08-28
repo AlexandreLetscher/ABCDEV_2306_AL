@@ -31,15 +31,14 @@ public class App {
 	 	Fin du programme
 	 */
 
-	public static int voyellenombre( String chaine)
+/*	public static int voyellenombre( String chaine)
 	{
 		int compteur = 0;
 		for (int i =0; i< chaine.length(); i++);
 	}
-			if chaine.charAt[i] =='a'
-			||
+			
 	
-		
+		*/
 public static void main(String[] args) {
 	
 }

@@ -2,7 +2,8 @@ package exercice_9;
 
 import java.util.Scanner;
 
-public class App {
+public class App 
+{
 
 	
 	/*
@@ -42,7 +43,8 @@ Fin pour
 	Ecrire nbSupMoyenne, " eleves depassent la moyenne de la classe"
 Fin du programme 
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+		{
 		
 int n,i,notesupp,somme,moyenne = 0;
 		
@@ -60,15 +62,15 @@ int n,i,notesupp,somme,moyenne = 0;
 		somme =0;
 		for (i=0; i<tab.length;i++) {
 			somme = somme + tab[i];
-		}
-		moyenne = somme/n;
-		notesupp = 0;
+			}
+				moyenne = somme/n;
+				notesupp = 0;
 		
 		for (i=0;i<tab.length;i++) 
-		{	
-		if  (tab[i]>moyenne) {
-			notesupp++;
-		}
+			{	
+				if  (tab[i]>moyenne) {
+					notesupp++;
+			}
 		
 		}
 		System.out.println( notesupp + " eleves  depassent la moyenne de la classe");

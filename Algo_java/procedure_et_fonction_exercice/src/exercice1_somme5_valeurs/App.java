@@ -54,7 +54,7 @@ public class App {
 		{
 			// Variables :
 			
-			int nombre1, nombre2, nombre3, nombre4, nombre5, addition;
+			int nombre1, nombre2, nombre3, nombre4, nombre5;
 			
 			Scanner sc = new Scanner(System.in); // ouverture du Scanner 
 			
