@@ -1,7 +1,6 @@
-package exemple_objet_ville;
+package exercice_ville;
 
 public class Ville {
-
 	private String nomVille;
 	private int nbHabitants;
 	private String nomPays;

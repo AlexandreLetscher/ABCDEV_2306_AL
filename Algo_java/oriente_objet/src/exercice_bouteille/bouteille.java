@@ -107,30 +107,41 @@ public class bouteille {
 				return false;
 			}
 		}
+
+
+		
 		
 		public boolean remplir (double quantite)
 		{
 			{
 				if( this.estOuverte)
 				{
-					if(quantite => 0)
+					if(quantite >= 0)
 					{
-						if(this.contenanceEnL+quantite <=1.5)
+						if(this.contenanceEnL+quantite <=1.5) {
 							return true;
-						{
-						else 
-							return false
 						}
-						{
 						else 
-							return false
+						{
+							return false;
+						}
+					}
+						else 
+						{
+							return false;
 						}
 			}
 		}
+			return estOuverte;
+		
+		
+			
+		
 		
 		
 	
 	 
 	
+}
 }
 
