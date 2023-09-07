@@ -14,7 +14,7 @@ public class App {
 		boolean test5 = maPorte1.ouvrirPartiellement(65);
 		boolean test6 = maPorte2.ouvrirPartiellement(50);
 		boolean test7 = maPorte1.fermerPartiellement(50);
-		boolean test8 = maPorte2.fermerPartiellement(60);
+		boolean test8 = maPorte2.fermerPartiellement(50);
 	}	
 
 }

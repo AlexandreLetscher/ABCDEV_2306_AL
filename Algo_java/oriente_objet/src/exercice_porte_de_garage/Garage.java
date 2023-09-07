@@ -77,7 +77,7 @@ private int degresMin = 0;
 				{
 					if (degresFermable <= degresMax)
 					{
-						if(this.degresOuverture - degresFermable > degresMin)
+						if(this.degresOuverture - degresFermable >= degresMin)
 							
 						{
 							this.degresOuverture -= degresFermable;
@@ -99,6 +99,7 @@ private int degresMin = 0;
 					return false;
 				}
 			}
+			
 		
 }
 
