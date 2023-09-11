@@ -1,10 +1,8 @@
 package Voiture;
 
-public class Execution_de_visibilité {
+public class Execution_de_visibilité 
+{
 
-	
-
-	private static final String Renault = null;
 
 	public static void main(String[] args) {
 		

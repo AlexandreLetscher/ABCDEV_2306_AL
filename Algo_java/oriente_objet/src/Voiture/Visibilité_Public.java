@@ -39,7 +39,7 @@ public class Visibilité_Public {
 	public void afficher()
 	{
 		System.out.println(" La marque de la voiture est :" + this.marque);
-		System.out.println(" Le prix de la voiture est de  : " + this.prix + " Euros");
+		System.out.println(" Le prix de la voiture est de  : " + this.prix + " Euros"+" \n");
 	}
 
 	
