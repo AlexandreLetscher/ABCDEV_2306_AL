@@ -29,13 +29,15 @@ public class Cercle
 			Double dx=q.abscisse-this.centre.abscisse;
 			Double dy=q.ordonnee-this.centre.ordonnee;
 			Double distance=Math.sqrt(dx*dx+dy*dy);
+			
+			
 		if(distance<=this.rayon)
 			{
 				System.out.println("Le point choisi apprtient au cercle");		
 			}
 		else
 			{
-				System.out.println("Le point choisi n'apprtient pas au cercle");		
+				System.out.println("Le point choisi n'appartient pas au cercle");		
 			}
 	}
 	

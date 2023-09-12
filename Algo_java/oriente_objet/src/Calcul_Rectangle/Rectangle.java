@@ -8,11 +8,11 @@ public class Rectangle
 	public int numero;
 	
 	
-	public Rectangle ( double  lon, double larg, int num)
+	public Rectangle ( double  _lon, double _larg, int _num)
 	{
-	this.longueur = lon;
-	this.largeur = larg;
-	this.numero = num;
+	this.longueur = _lon;
+	this.largeur = _larg;
+	this.numero = _num;
 	}
 
 	
@@ -24,14 +24,15 @@ public class Rectangle
 	
 	public double perimetre()
 	{
-		return 2*(this.longueur + this.largeur);
+		return 2*(this.longueur*this.largeur);
 	}
 	
 	
 	public void afficher()
 	{
-		System.out.println(" la surface du rectangle "+this.numero+" est de :"+ this.surface() );
-		System.out.println(" le perimetre du rectangle "+this.numero+" est de :" + this.perimetre()+"\n");
+		System.out.println(" La surface du rectangle "+this.numero+" est de : "+ Math.round(this.surface()*100.0)/100.0 );
+		
+		System.out.println(" Le perimetre du rectangle "+this.numero+" est de : " + Math.round(this.perimetre()*100.0)/100.0+"\n");
 	}
 
 }

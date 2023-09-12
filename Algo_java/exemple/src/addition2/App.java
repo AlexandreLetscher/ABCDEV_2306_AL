@@ -25,20 +25,27 @@ fin du programme
 		
 		double nombre1;
 		double nombre2;
+		double nombre3;
+		double nombre4;
 		double resultat;
 		
 		Scanner sc;
 		sc = new Scanner(System.in); // Création d'un nouveau scanner
 		
-		System.out.println("premier nombre"); // Ce qui va apparaitre dans la commande
+		System.out.println("Saisir le premier nombre"); // Ce qui va apparaitre dans la commande
 		nombre1 = sc.nextDouble(); // Nombre que je vais taper
-		System.out.println("deuxieme nombre");// ce qui va apparaitre dans la commande
+		System.out.println("Saisir le deuxieme nombre");// ce qui va apparaitre dans la commande
 		nombre2 = sc.nextDouble(); // nombre que je vais taper
+		System.out.println("Saisir le Troisieme nombre");
+		nombre3 =sc.nextDouble();
+		System.out.println("Saisir le Quatrieme nombre");
+		nombre4 = sc.nextDouble();
 		
-		resultat = (nombre1 + nombre2)/2;
-		resultat = Math.round(nombre1 + nombre2*100.0) /100.0;
+		resultat = (nombre1 + nombre2 + nombre3 + nombre4)/2;
+		resultat = Math.round(resultat*100.0) /100.0;
 		
-		System.out.println("la moyenne de " + nombre1 + " et " + nombre2 + " vaut " + resultat);
+		
+		System.out.println("la moyenne est de " + resultat);
 		
 		sc.close();// fermeture du scanner
 		

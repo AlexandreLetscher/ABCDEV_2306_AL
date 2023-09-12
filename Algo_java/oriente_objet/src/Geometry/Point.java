@@ -2,14 +2,14 @@ package Geometry;
 
 public class Point
 {
-double abscisse;
-double ordonnee;
+	double abscisse;
+	double ordonnee;
 
 
-public Point (double a, double o)
-{
+	public Point (double a, double o)
+	{
 	this.abscisse = a;
 	this.ordonnee = o;
 	
-}
+	}
 }

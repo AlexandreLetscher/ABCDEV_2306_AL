@@ -5,6 +5,9 @@ public class Visibilité_Public {
 	private String marque;
 	private double prix;
 	
+	
+	 // constructeur par defaut
+	
 	public Visibilité_Public()
 	{
 		this.marque = " renault";

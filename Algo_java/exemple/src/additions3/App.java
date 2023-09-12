@@ -29,7 +29,7 @@ fin du programme
 
 		final double pi = Math.PI; // declaration d'une constante
 
-Scanner sc = new Scanner (System.in);
+		Scanner sc = new Scanner (System.in);
 
 
 
