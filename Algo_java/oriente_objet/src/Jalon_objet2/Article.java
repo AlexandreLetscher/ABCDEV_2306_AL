@@ -6,17 +6,17 @@ public class Article
 	public String designation;
 	double prixHT;
 	double  tauxTVA;
-	double resultat;
-	double prixTTC;
 	
 	
-		public Article ( String ref, String design, double pHT, double TVA, double TTC)
+	
+	
+		public Article ( String ref, String design, double pHT, double TVA)
 		{
 			this.reference = ref;
 			this.designation = design;
 			this.prixHT = pHT;
 			this.tauxTVA = TVA;	
-			this.prixTTC = TTC;
+			
 		}
 	
 	// Constructor par default
@@ -27,17 +27,17 @@ public class Article
 			this.designation = "Abcdev";
 			this.prixHT = 550;
 			this.tauxTVA = 10;
-			this.prixTTC = 0;
+			
 		}
 
 		public double calculprixTTC()
 		{
-			return this.prixTTC =  this.prixHT+(this.prixHT*this.tauxTVA/100);
+			return  (this.prixHT+(this.prixHT*this.tauxTVA/100));
 		}
 	
 		public void AfficherArticle()
 		{
-		System.out.println("L'article avec comme reference : " + this.reference + " son prix TTC est de : " + this.prixTTC + "euros"+ "\n");
+		System.out.println("L'article avec comme reference : " + this.reference + " son prix TTC est de : " + Math.round(this.calculprixTTC()*100.0)/100.0 + " euros"+ "\n" );
 		}
 
 }
