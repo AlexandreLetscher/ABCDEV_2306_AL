@@ -53,11 +53,11 @@ public class Article
 	//********Setters******
 	
 	
-	public void steReference(String _reference)
+	public void setReference(String _reference)
 	{
 		this.reference = _reference;
 	}
-	public void designation (String _designation)
+	public void setdesignation (String _designation)
 	{
 		this.designation = _designation;
 	}
